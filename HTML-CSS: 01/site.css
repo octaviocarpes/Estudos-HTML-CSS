@@ -1,0 +1,147 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 30px;
+}
+
+main h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid black;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    border: 10px solid #C2CCCA;
+    background-color: #D9E5E3;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    align-content: center;
+}
+
+#page-footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+footer p a{
+    font-size: 15px;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+nav h1{
+    font-size: 30px;
+    margin: 25px;
+}
+
+main a{
+    font-family: 'Open Sans Condensed';
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navbar li{
+    text-transform: lowercase;
+    list-style-type: none;
+    align-content: center;
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.social-media li{
+    display: inline-block;
+}
+
+#posts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#posts article{
+    border-bottom: 2px solid #ccc;
+}
+
+.link-leia-mais{
+    box-sizing: border-box;
+    background-color: #D9E5E3;
+    text-align: center;
+    width: 720px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github-img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(github.png);
+    text-indent: -9999px;
+}
+
+#linkedin-img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(linkedin.png);
+    text-indent: -9999px;
+}
+
+#twitter-img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(twitter.png);
+    text-indent: -9999px;
+}
+
