@@ -1,193 +1,162 @@
 body {
-    font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #F2FFFC;
-    font-size: 120%;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
 }
 
 h1, h2 {
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    font-size: 30px;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
-    font-size: 60px;
-    text-align: center;
-    background-color: #851944;
-    color: #FFF;
-    padding: 25px;
-    border-bottom: 10px solid black;
-}
-
-h1{
-    text-transform: uppercase;
-}
-
-h2{
-    clear: both;
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	text-align: justify;
+	margin: 20px 0;
 }
 
-p em{
-    float: right;
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
-div{
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
 
-blockquote {
-    border: 10px solid #C2CCCA;
-    background-color: #D9E5E3;
+.rodape-pagina {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacao-bio, .navegacao-site, .rodape-pagina {
     padding: 20px;
-    width: 250px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    
 }
 
-.block-quote-left{
-    float: left;
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 80px 0;
 }
 
-.block-quote-right{
-    float: right;
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
-aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 20px;
-    align-content: center;
+strong {
+	font-weight: bold;
 }
 
-#page-footer {
-    background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
-    clear: both;
+em {
+	font-style: italic;
 }
 
-footer p a{
-    font-size: 15px;
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
 }
 
+.icones-redes-sociais li {
+	display: inline-block;
+}
 
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
 
-
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
 
 nav a {
-    color: #F2FFFC;
+	text-transform: lowercase;
 }
 
-nav h1{
-    font-size: 30px;
-    margin: 25px;
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
 }
 
-main a{
-    font-family: 'Open Sans Condensed';
-    color: #851944;
+.github {
+	background-image: url(github.png);
 }
 
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
+.twitter {
+	background-image: url(twitter.png);
 }
 
-.navbar li{
-    text-transform: lowercase;
-    list-style-type: none;
-    align-content: center;
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
+.linkedin {
+	background-image: url(linkedin.png);
 }
 
-.social-media li{
-    display: inline-block;
+.fiat {
+	float: right;
 }
 
-#posts{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.petrobras {
+	float: left;
 }
 
-#posts article{
-    border-bottom: 2px solid #ccc;
+main {
+	float: left;
+	width: 85%;
 }
 
-.link-leia-mais{
-    box-sizing: border-box;
-    background-color: #D9E5E3;
-    text-align: center;
-    width: 720px;
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#github-img{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(github.png);
-    text-indent: -9999px;
-}
-
-#linkedin-img{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(linkedin.png);
-    text-indent: -9999px;
-}
-
-#twitter-img{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(twitter.png);
-    text-indent: -9999px;
-}
-
-time{
-    float: left;
-    clear: both;
-}
-
-main{
-    float: left;
-    width: 80%;
-}
-
-img{
+.navegacao-site {
+    position: relative;
+    top: 320px;
     float: right;
-    border: 10px solid black;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
 
-aside{
-    float: right ;
-
+.minha-foto{
+    position: absolute;
     border: 10px solid black;
+    top: 0;
+    right: 0;
 }
 
-img, aside{
-    box-sizing: border-box;
-    width: 20%;
+cite {
+	font-style: italic;
+	float: right;
 }
