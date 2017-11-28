@@ -22,12 +22,20 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    clear: both;
+}
+
 p {
     text-align: justify;
     line-height: 1.5;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+p em{
+    float: right;
 }
 
 div{
@@ -51,6 +59,14 @@ blockquote {
     
 }
 
+.block-quote-left{
+    float: left;
+}
+
+.block-quote-right{
+    float: right;
+}
+
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -62,11 +78,16 @@ aside {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 
 footer p a{
     font-size: 15px;
 }
+
+
+
+
 
 nav a {
     color: #F2FFFC;
@@ -145,3 +166,28 @@ aside a {
     text-indent: -9999px;
 }
 
+time{
+    float: left;
+    clear: both;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+img{
+    float: right;
+    border: 10px solid black;
+}
+
+aside{
+    float: right ;
+
+    border: 10px solid black;
+}
+
+img, aside{
+    box-sizing: border-box;
+    width: 15%;
+}
