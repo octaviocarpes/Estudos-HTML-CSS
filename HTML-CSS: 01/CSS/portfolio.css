@@ -1,0 +1,31 @@
+.image-box{
+    border: 10px solid black;
+    padding: 8px;
+    margin: 8px;
+    width: 320px;
+    height:151px; 
+    text-indent: -99999px;
+    display: inline-block;
+}
+
+.two-img-box{
+    display: inline-block;
+    width: 700px;
+    border: 2px solid black;
+}
+
+#bmw-img{
+    background-image: url(imagens/bmw.png); 
+}
+
+#uol-img{
+    background-image: url(imagens/uol.png);
+}
+
+#g1-img{
+    background-image: url(imagens/g1.png);
+}
+
+#ibm-img{
+    background-image: url(imagens/ibm.png);
+}
